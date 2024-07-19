@@ -1,0 +1,384 @@
+%cardEspText{
+    font-weight: 600;
+    font-size: 12px;
+    align-self: center;
+    align-items: center;
+    margin: auto;
+}
+
+%cardCircleFeature{
+    position: absolute;
+    right: 0;
+    text-align: center;
+    padding-top: 25px;
+
+    top: 30px;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: #A1DCDC;
+    
+    font-weight: 800;
+    font-size: 20px;
+
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
+
+%cardTextGr{
+    font-weight: 400;
+    font-size: 14px;
+    color:#B7B7B7;
+    display: flex;
+    gap: 8px;
+}
+%cardTextGrCircle{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #E07153;
+    vertical-align: auto;
+}
+
+%cardTitle{
+    font-weight: 600;
+    font-size: 24px;
+}
+%cardFilling{
+    font-weight: 400;
+    font-size: 14px;
+}
+%cardPrice{
+    display: flex;
+    gap: 84px;
+    margin-top: 50px;
+}
+%cardCost{
+    display: flex;
+    flex-direction: column;
+    gap: -10px;
+}
+%cardOldCost{
+    margin-bottom: -5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #B7B7B7;
+    text-decoration-line:line-through;
+}
+%cardCurrentCost{
+    font-weight: 700;
+    font-size: 32px;
+}
+%cardBtn{
+    width: 180px;
+    grid-row-end: 44px;
+    border-radius: 2px;
+    border: 1px solid #C95C3F;
+    background-color: #E07153;
+    background-image: url(/imj/bag_btn.svg);
+    padding: 13PX 59px;
+
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+}
+%cardWigth{
+    width: 392px;
+    padding: 24px;
+}
+%cardGrid{
+    grid-column-gap: 24px;
+    display: grid;
+    grid-template-columns: 392px 392px 392px;
+}
+
+
+%titleTwoSIde {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+%suptitleTwoSide{
+    font-weight: 300;
+    font-size: 16px;
+    color: #1B1B1B;
+}
+
+
+
+
+
+
+.sushi_page{
+    margin-top: 48px;
+    margin-bottom: 34px;
+    &_container{
+        width: 1200px;
+        margin: auto;
+
+
+    }
+    &-title{
+        font-weight: 600;
+        font-size: 40px;
+        margin-top: 24px;
+    }
+    &-catalog{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 21px;
+        &-colm{
+
+        }
+        &-list{
+            display: flex;
+            column-gap: 4px;
+
+
+        }
+        &-item{
+            padding: 12px 20px;
+            border: 1px solid  #E8E8E8;
+            border-radius: 8px;
+            &:hover{
+                border: 1px solid #E07153;
+            }
+            &-icon{
+                width: 24px;
+                height: 24px;
+                vertical-align: middle;
+                align-self: center;
+                align-items: center;
+
+            }
+        }
+        &-btn{
+            font-weight: 500;
+            font-size: 14px;
+
+            padding: 15.5px 183px 15.5px 20px;
+            border: 1px solid #E2E1E1;
+            border-radius: 8px;
+        }
+
+    }
+    &-sorting{
+        align-self: flex-end;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        & p{
+           color:#B7B7B7; 
+           font-weight: 500;
+           font-size: 14px;
+        }
+
+    }
+}
+.sushi_side {
+    font-weight: 400;
+    font-size: 14px;
+    span{
+        font-weight: 600;
+    }
+}
+.sushi_cards {
+    &_container{
+        width: 1200px;
+        margin: auto;
+        position: relative;
+
+
+    }
+    &-block{
+        grid-column-gap: 24px;
+        display: grid;
+        grid-template-columns: 392px 392px 392px;
+       
+    }
+}
+.sushi_card {
+    
+    width: 392px;
+    margin-bottom: 24px;
+    padding: 24px;
+    &_select{
+
+        &-esp{
+
+            &-vegan{
+                position: absolute;
+                margin-top: 12px;
+                margin-left: -8px;
+                display: flex;
+                flex-direction: column;;
+                width: 32px;
+                align-items: center;
+                text-align: center;
+                align-self: center;
+                // margin: auto;
+                &_logo{
+
+                }
+                &-text{
+                    font-weight: 600;
+                    font-size: 12px;
+                    align-self: center;
+                    align-items: center;
+                    margin: auto;
+                }
+            }
+            &-spicy{
+
+                &_logo{
+
+                }
+                &-text{
+
+                }
+            }
+            &-hot{
+                &_logo{
+
+                }
+                &-text{
+
+                }
+            }
+        }
+        &-text{
+            position: absolute;
+            right: -12px;
+            text-align: center;
+            padding-top: 25px;
+        
+            top: 30px;
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            background-color: #8f8f8f;
+            
+            font-weight: 800;
+            font-size: 20px;
+        
+            font-weight: 800;
+            font-size: 20px;
+            color: white;
+        }
+        &-food-img{
+
+        }
+        &-info{
+            display: flex;
+            flex-direction: column;
+            column-gap: 4px;
+
+        }
+        &-gr{
+            color:  #B7B7B7;
+            display: flex;
+            column-gap: 8px;
+            &-circle{
+
+            }
+        }
+        &-name{
+            font-weight: 600;
+            font-size: 24px;
+        }
+        &-filling{
+            font-weight: 400;
+            font-size: 14px;
+            color:#424242;
+        }
+        &-price{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 48px;
+        }
+        &-cost{
+
+        }
+        &-oldCost{
+            font-weight: 400;
+            font-size: 14px;
+            color:#B7B7B7;
+            text-decoration:line-through;
+            margin-bottom: -5px;
+        }
+        &-currentCost{
+            font-weight: 700;
+            font-size: 32px;
+        }
+        &-btn{
+            font-weight: 700;
+            font-size: 14px;
+            color: white;
+            background-color: #E07153;
+            background-image: url(/imj/bag_btn.svg);
+            border: 1px solid #c95c3f;
+            padding: 13px 59px;
+        }
+    }
+}
+.top_esp {
+}
+.esp_text {
+}
+
+.list-2{
+    margin-top: 4px;
+}
+
+.none{
+    display: none;
+}
+
+
+
+.delivery {
+    &_container{
+        max-width: 1224px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 120px;
+        margin-bottom: 140px;
+
+    }
+    &_text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    &_name{
+        margin-top: 26px
+    }
+    &_title{
+
+        @extend %titleTwoSIde;
+
+    }
+    &_suptitle{
+        @extend %suptitleTwoSide;
+        width: 663px;
+        line-height: 25.6px;
+
+    }
+    &_img{
+        display: flex;
+    }
+    &_mainImg{
+        width: 347px;
+        height: 432px;
+        z-index: 2;
+    }
+    &_sideImg{
+        margin-left: -100px;
+        margin-top: 66px;
+        width: 240px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,215 @@
+.delivery_title {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.delivery_suptitle {
+  font-weight: 300;
+  font-size: 16px;
+  color: #1B1B1B;
+}
+
+.sushi_page {
+  margin-top: 48px;
+  margin-bottom: 34px;
+}
+.sushi_page_container {
+  width: 1200px;
+  margin: auto;
+}
+.sushi_page-title {
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 24px;
+}
+.sushi_page-catalog {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+}
+.sushi_page-catalog-list {
+  display: flex;
+  -moz-column-gap: 4px;
+       column-gap: 4px;
+}
+.sushi_page-catalog-item {
+  padding: 12px 20px;
+  border: 1px solid #E8E8E8;
+  border-radius: 8px;
+}
+.sushi_page-catalog-item:hover {
+  border: 1px solid #E07153;
+}
+.sushi_page-catalog-item-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  align-self: center;
+  align-items: center;
+}
+.sushi_page-catalog-btn {
+  font-weight: 500;
+  font-size: 14px;
+  padding: 15.5px 183px 15.5px 20px;
+  border: 1px solid #E2E1E1;
+  border-radius: 8px;
+}
+.sushi_page-sorting {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.sushi_page-sorting p {
+  color: #B7B7B7;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.sushi_side {
+  font-weight: 400;
+  font-size: 14px;
+}
+.sushi_side span {
+  font-weight: 600;
+}
+
+.sushi_cards_container {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+.sushi_cards-block {
+  grid-column-gap: 24px;
+  display: grid;
+  grid-template-columns: 392px 392px 392px;
+}
+
+.sushi_card {
+  width: 392px;
+  margin-bottom: 24px;
+  padding: 24px;
+}
+.sushi_card_select-esp-vegan {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: -8px;
+  display: flex;
+  flex-direction: column;
+  width: 32px;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+.sushi_card_select-esp-vegan-text {
+  font-weight: 600;
+  font-size: 12px;
+  align-self: center;
+  align-items: center;
+  margin: auto;
+}
+.sushi_card_select-text {
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  padding-top: 25px;
+  top: 30px;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #8f8f8f;
+  font-weight: 800;
+  font-size: 20px;
+  font-weight: 800;
+  font-size: 20px;
+  color: white;
+}
+.sushi_card_select-info {
+  display: flex;
+  flex-direction: column;
+  -moz-column-gap: 4px;
+       column-gap: 4px;
+}
+.sushi_card_select-gr {
+  color: #B7B7B7;
+  display: flex;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+.sushi_card_select-name {
+  font-weight: 600;
+  font-size: 24px;
+}
+.sushi_card_select-filling {
+  font-weight: 400;
+  font-size: 14px;
+  color: #424242;
+}
+.sushi_card_select-price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.sushi_card_select-oldCost {
+  font-weight: 400;
+  font-size: 14px;
+  color: #B7B7B7;
+  text-decoration: line-through;
+  margin-bottom: -5px;
+}
+.sushi_card_select-currentCost {
+  font-weight: 700;
+  font-size: 32px;
+}
+.sushi_card_select-btn {
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  background-color: #E07153;
+  background-image: url(/imj/bag_btn.svg);
+  border: 1px solid #c95c3f;
+  padding: 13px 59px;
+}
+
+.list-2 {
+  margin-top: 4px;
+}
+
+.none {
+  display: none;
+}
+
+.delivery_container {
+  max-width: 1224px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 140px;
+}
+.delivery_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.delivery_name {
+  margin-top: 26px;
+}
+.delivery_suptitle {
+  width: 663px;
+  line-height: 25.6px;
+}
+.delivery_img {
+  display: flex;
+}
+.delivery_mainImg {
+  width: 347px;
+  height: 432px;
+  z-index: 2;
+}
+.delivery_sideImg {
+  margin-left: -100px;
+  margin-top: 66px;
+  width: 240px;
+  height: 300px;
+}/*# sourceMappingURL=sushu_page1.css.map */
